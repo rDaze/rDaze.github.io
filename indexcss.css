@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Title*/
+#h1Daze {
+	font: normal 100px/normal "Chau Philomene One", sans-serif;
+	color: rgb(255, 255, 255);
+	text-shadow: -3px 0 1px rgb(0, 191, 255), 3px 0 1px rgb(255, 0, 0);
+	transition: all 0.25s;
+}
+
+#h1Daze:hover {
+	color: rgb(0, 0, 0);
+	transition: all 0.3s;
+	cursor: default;
+}
+
+/*Contact*/
+#contact {
+	font: normal 25px/normal "Chau Philomene One", sans-serif;
+	color: rgb(255, 255, 255);
+	text-shadow: -3px 0 1px rgb(0, 191, 255), 3px 0 1px rgb(255, 0, 0);
+	transition: all 0.25s;
+}
+
+#contact:hover {
+	color: rgb(0, 0, 0);
+	transition: all 0.3s;
+	cursor: default;
+}
+
+/*Discord ID*/
+#id {
+	font: normal 15px/normal "Chau Philomene One", sans-serif;
+	color: rgb(255, 255, 255);
+	text-shadow: -3px 0 1px rgb(0, 191, 255), 3px 0 1px rgb(255, 0, 0);
+	transition: all 0.25s;
+}
+
+#id:hover {
+	color: rgb(0, 0, 0);
+	transition: all 0.3s;
+	cursor: default;
+}
+
+button {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+body {
+	
+}
+
+.title {
+	letter-spacing: 25px;
+	text-indent: 8px;
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	margin: 0;
+	top: 12%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}
+
+.video_embed {
+	z-index: 0;
+	position: absolute;
+	margin: 0;
+	top: 53%;
+	left: 50%;
+	width: 100%    !important;
+  	height: auto   !important;
+	transform: translate(-50%, -50%);
+}
+
+.footer {
+	letter-spacing: 5px;
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	margin: 0;
+	top: 91.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
